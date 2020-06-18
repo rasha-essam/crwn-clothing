@@ -22,7 +22,7 @@ function App({ history }) {
     return function cleanup() {
       unsubscribeFromAuth();
     };
-  }, []);
+  }, [history]);
 
   return (
     <div>
